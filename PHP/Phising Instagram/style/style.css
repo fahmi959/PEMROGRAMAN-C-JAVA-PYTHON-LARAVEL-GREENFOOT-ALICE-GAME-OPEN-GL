@@ -1,0 +1,122 @@
+body {
+  background-color: #fafafa;
+}
+
+.space {
+  height: 80px;
+}
+
+.login-box {
+  margin-top: 15%;
+  padding: 30px;
+  margin-left: -90px;
+  background-color: white;
+  border: solid 1px #d6d6d6;
+}
+
+.login-box-2 {
+  margin-top: 5%;
+  padding: 20px;
+  margin-left: -90px;
+  background-color: white;
+  border: solid 1px #d6d6d6;
+}
+
+.ig-img {
+  padding-top: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.atau {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.atau span {
+  background: white;
+  padding: 0 10px;
+}
+
+.appstore {
+  width: 120px;
+}
+
+.playstore {
+  width: 120px;
+}
+
+.aplikasi {
+  margin-top: 20px;
+  width: 100%;
+  margin-left: -50px;
+}
+
+li a {
+  text-decoration: none;
+  color: #adadad;
+  font-size: 13px;
+}
+
+li a:hover {
+  color: #adadad;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  position: relative;
+  float: left;
+  display: block;
+  left: 50%;
+}
+
+li {
+  float: left;
+  display: block;
+  position: relative;
+  right: 50%;
+}
+
+li a {
+  text-align: center;
+  padding: 10px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.btn-primary {
+  background-color: #80c1fd;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #80c1fd;
+  border: none;
+}
+
+.wraper {
+  max-width: 1000px !important;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+
+@media only screen and (max-width: 640px) {
+  #ig {
+    visibility: hidden;
+    position: absolute;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,57 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe build active file",
+			"command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-o",
+				"-I",
+				"day1.cpp",
+				"C:\\msys64\\mingw64\\include\\glad.c",
+				"-fdiagnostics-color=always",
+				// "-g",
+				// "${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"-L.",
+				"-lglfw3", " -lopengl32", "-lgdi32" ,
+
+				"-lmingw32",
+                    "-lopengl32",
+                    "-lglew32",
+                    "-lglew32mx",
+                    "-lglu32",
+                    "-lSDL2main",
+                    "-lSDL2",
+                    "-lSDL2_image",
+                    "-lSDL2_ttf"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
+		},
+		{
+			"label": "Run Program",
+			"type": "shell",
+			"command": "./${fileBasenameNoExtension}",
+			"dependsOn": [
+				"C/C++: g++.exe build active file"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": []
+		}
+	]
+}

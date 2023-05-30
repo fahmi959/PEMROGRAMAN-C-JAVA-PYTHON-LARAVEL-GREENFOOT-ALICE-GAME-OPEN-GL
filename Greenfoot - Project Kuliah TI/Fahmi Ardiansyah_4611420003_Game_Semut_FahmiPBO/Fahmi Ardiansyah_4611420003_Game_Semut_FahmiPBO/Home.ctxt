@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Home
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Home\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ started()
+comment2.params=
+comment2.target=void\ stopped()
+comment3.params=
+comment3.target=Home()
+comment4.params=
+comment4.target=void\ prepare()
+comment4.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\r\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\r\n
+numComments=5

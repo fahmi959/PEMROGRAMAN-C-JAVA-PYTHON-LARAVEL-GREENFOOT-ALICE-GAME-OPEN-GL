@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Semut
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Semut\ here.\r\n\ @author\ (your\ name)\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Semut\ wants\ to\ do.\ This\ method\ is\ called\ whenever\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ makanPizza()
+comment2.text=\r\n\ \r\n
+numComments=3

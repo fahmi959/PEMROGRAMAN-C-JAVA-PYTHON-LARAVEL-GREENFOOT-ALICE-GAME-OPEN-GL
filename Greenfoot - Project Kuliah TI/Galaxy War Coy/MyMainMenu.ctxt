@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MyMainMenu
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyMainMenu\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=MyMainMenu()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyMainMenu.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\r\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\r\n
+numComments=3
